@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Election Redistricting Application</b></h1>
+            <h5>Spring - Angular Application</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <p>A Gerrymander is a voting district that is designed to serve some political purpose. The name refers to both a salamander and Eldridge Gerry, whose newly created voting district about 200 years ago was said to resemble a salamander. Within the past 10 years, databases for voter characterization as well as tools for precise map drawing have made it possible to create congressional districts that favor the party responsible for the creation of the districts. Redistricting is done in states where census data requires a change in the number of delegates in the state, and the 2010 census triggered redistricting in a number of states. Many of these redistricting efforts resulted in a shift in the political representation in the states. As the realization of the impact of these changes has grown, various technical approaches to the issue have been proposed, some as quantitative measures of the presence of Gerrymandering, others as legal challenges to redistricting, and yet others as draft bills in Congress to minimize the effect of future redistricting. The system to be developed in this project will allow for the generation of congressional district boundaries without any political influence.</p>
+            <p>The generation process of the system should combine smaller districts (e.g., polling districts or state assembly districts so that the resulting districts adhere to the following goals or constraints identified by Jacobson & Carson: </p>
+            <ol>
+                <li>Compactness</li>
+                <li>Contiguity</li>
+                <li>Equal Population</li>
+                <li>Preservation of Existing Political Communities</li>
+                <li>Partisan Fairness</li>
+                <li>Racial Fairness</li>
+            </ol>
+            <p>This application is available on GitHub:</p>
+            <ol>
+                <li><a href="https://github.com/nickygencs17/308FrontEnd">Front End</a></li>
+                <li><a href="https://github.com/nickygencs17/308API">API</a></li>
+            </ol>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>Use Cases Document</h5>
+                    <object data="pdfs/Final_Use_Cases.pdf" type="application/pdf" width="100%" height="800">
+                        <p>Alternative text - link <a href="pdfs/Final_Use_Cases.pdf">to the PDF!</a></p>
+                    </object>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>Sequence Diagrams Document</h5>
+                    <object data="pdfs/Sequence_Diagrams.pdf" type="application/pdf" width="100%" height="800">
+                        <p>Alternative text - link <a href="pdfs/Sequence_Diagrams.pdf">to the PDF!</a></p>
+                    </object>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <blockquote>
+                <img id="image" src="images/Gerrymander.jpeg" alt="quote" onload="autoScaleDocumentImage()">
+                <p>Irrational Thinking</p>
+                <small><a href="https://www.southerncoalition.org/gerrymandering-101/"><cite title="Southern Coalition for Social Justice Blog">Source: Blog</cite></a></small>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="CSS_nus.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script src="image_js.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="images/iisc.png" class="rounded float-left" alt="un" width=20%>
+        </div>
+
+        <div class="col-sm-6">
+            <img src="images/csa.png" class="rounded float-right" alt="mlow" width=20%>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Indian Institute of Science</b></h1>
+            <h5>Machine and Language Learning Lab </h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <p><a href="http://malllabiisc.github.io/">The Machine And Language Learning (MALL) Lab</a> at the Indian Institute of Science (IISc), Bangalore is a group of researchers, engineers, and students from the Department of Computational & Data Sciences (CDS) and the Department of Computer Science and Automation (CSA). The group is led by Partha Talukdar.</p>
+            <p>As an intern, it was my duty to research about and compile a presentation about Graph based query languages.</p>
+            <p>The presentation is as follows:</p>
+            <object data="pdfs/query_languages.pdf" type="application/pdf" width="100%" height="800">
+                <p>Alternative text - link <a href="pdfs/query_languages.pdf">to the PDF!</a></p>
+            </object>
+        </div>
+    </div>
+</div>
+</body>
+</html>

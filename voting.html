@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Text to Speech Conversion and Speech Recognition</b></h1>
+            <h5>A Literature Review</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <p>This is a research paper that has been constructed after comparing and contrasting the three major types of voting systems i.e. Plurality, Proportional and Mixed Member Proportional System. Examples have been used from the recently concluded elections of various countries.</p>
+            <p>The paper also provides an insight on the various theories and research conducted to make voting more efficient, more representative and hence more democratic.</p>
+            <object data="pdfs/voting.pdf" type="application/pdf" width="100%" height="800">
+                <p>Alternative text - link <a href="pdfs/voting.pdf">to the PDF!</a></p>
+            </object>
+        </div>
+        <div class="col-sm-4">
+            <blockquote>
+                <img id="image" src="images/vote.jpg" alt="quote" onload="autoScaleDocumentImage()" width="75%">
+                <p>Effects of Loneliness and Poor Communication</p>
+                <p>The best argument against democracy is a five-minute conversation with the average voter.</p>
+                <small>Sir Winston Churchill</small>
+                <small><a href="https://followmyvote.com/voter-apathy-at-all-time-high/"><cite title="Vote Blog">Image Source: Blog</cite></a></small>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

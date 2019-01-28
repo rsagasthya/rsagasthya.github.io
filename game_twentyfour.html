@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Game24 Application</b></h1>
+            <h5>Java Spring Application</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            p>The main objective of this project was to implement an online game of Tic Tac Toe using Internet Domain sockets.</p>
+            <p>The project required a client server model. Each player is a client, while the game runs on the server. The client sends the commands to the server and receives the relevant response either as updated game board, help menus, error and other messages. Based on the content of these messages, the client decides the future moves which shall be permitted. Clients connected to a particular game must get both generic messages like the status of the game board and custom messages like error messages or help messages, through Multiplexing.</p>
+            <p>This application is available on GitHub <a href="https://github.com/smckay/TicTacToe">here.</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <br>
+            <h5>Project Report</h5>
+            <object data="pdfs/CSE310_Project.pdf" type="application/pdf" width="100%" height="800">
+                <p>Alternative text - link <a href="pdfs/CSE310_Project.pdf">to the PDF!</a></p>
+            </object>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Irrational Thinking</b></h1>
+            <h5>A Textual Analysis</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <p>Today, we face a new threat of irrational thinking. Thoughts and facts fed into our brains often corrupt our way of thinking. This leads to the loss of self-control and we end up thinking unimaginable things. A similar incident is described in the story So Much Water, So Close to Home by Raymond Carver. This analysis critically examines the character of Claire, and to what extent her irrational thinking had taken her to suspect her husband.</p>
+            <object data="pdfs/IrrationalThinking.pdf" type="application/pdf" width="100%" height="800">
+                <p>Alternative text - link <a href="pdfs/IrrationalThinking.pdf">to the PDF!</a></p>
+            </object>
+        </div>
+        <div class="col-sm-4">
+            <blockquote>
+                <img id="image" src="images/irrational.jpg" alt="quote" onload="autoScaleDocumentImage()" width="75%">
+                <p>Irrational Thinking</p>
+                <small><a href="http://i-love-my-life.com/2011/08/19/believe-it-or-not-there-are-benefits-to-being-irrational/"><cite title="Irrational Thinking Blog">Source: Blog</cite></a></small>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

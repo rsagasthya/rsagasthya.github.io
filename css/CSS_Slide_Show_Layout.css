@@ -1,0 +1,48 @@
+#content {
+    text-align: center;
+    height: 520px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#slide_img, #slide_caption, #slideshow_controls {
+    width:500px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    text-align: center;
+    margin: auto;
+}
+#slide_img {
+    top:80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#slide_caption {
+    top:560px;
+    text-align:center;
+    height:50px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#slideshow_controls {
+    top:600px;
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#image_holder {
+    width:400px;
+    height: 400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    margin: auto;
+}

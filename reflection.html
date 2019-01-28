@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="CSS_nus.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script src="image_js.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Where the Mind is Without Fear</b></h1>
+            <h5>A Personal Reflection</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-7">
+            <p>
+                A briefing about my life, how I ended up in SUNY Stony Brook University, my values, my thinking and my perspective. I believe in respect towards the learned. First to be respected is my Mother, the person who brought me into this world, my first teacher, who held my hands and helped to put my first steps. Next comes my Father, who stood as a guardian during my childhood, and showed me the difference between right and wrong. Next come my Teachers, from Kindergarten to College, who shaped my thinking and my knowledge, both scientific and moral. Finally comes the people who I meet on a daily basis, who taught me to be competent in this world. All these people have helped me grow and become who I am today. I strongly believe in the great poet Rabindranath Tagore's work, "Where the Mind is Without Fear" and hence the title. He quotes,
+            </p>
+            <object data="pdfs/WheretheMindisWithoutFear.pdf" type="application/pdf" width="100%" height="800">
+                <p>Alternative text - link <a href="pdfs/WheretheMindisWithoutFear.pdf">to the PDF!</a></p>
+            </object>
+        </div>
+        <div class="col-sm-5">
+            <img id="image" src="images/reflection_image.jpg" alt="quote" onload="autoScaleDocumentImage()" width="75%">
+            <br>
+            <blockquote>
+                <p>Where the mind is without fear and the head is held high, where knowledge is free.</p>
+                <p>Where the world has not been broken up into fragments by narrow domestic walls.</p>
+                <p>Where words come out from the depth of truth,</p>
+                <p>where tireless striving stretches its arms toward perfection.</p>
+                <p>Where the clear stream of reason has not lost it's way into the dreary desert sand of dead habit.</p>
+                <p>Where the mind is led forward by thee into ever widening thought and action.</p>
+                <p>In to that heaven of freedom, my father,</p>
+                <p>LET MY COUNTRY AWAKE!</p>
+                <small>Kaviguru Rabindranath Tagore <cite title="Gitanjali - 35">Gitanjali - 35</cite></small>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

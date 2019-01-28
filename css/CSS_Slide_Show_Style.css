@@ -1,0 +1,16 @@
+#content {
+    font-family: 'Josefin Slab', serif;
+    border:3px solid #000000;
+}
+#slideshow_title {
+    font-size: 48pt;
+    font-weight: bold;
+}
+#slide_caption {
+    font-family: 'Josefin Slab', serif;
+    font-size:20pt;
+    font-weight: bold;
+}
+#image_holder {
+    background-color: beige;
+}

@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="display-4"><b>Coursework</b></h1>
+            <h3 class="display-5"><b>Illinois Institute of Technology</b></h3>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                <i class="material-icons">star</i><b> Core Area Courses</b>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Area Satisfied</th>
+                                    <th>Course Information</th>
+                                    <th>Course Instructor</th>
+                                    <th>Term</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Computer Networks I: Fundamentals</b><br/><a
+                                            href="https://science.iit.edu/sites/science/files/field_uploads/course-descriptions/attachments/cs542.pdf">CS
+                                        542</a></td>
+                                    <td>Systems Course</td>
+                                    <td><p>This course focuses on the engineering and analysis of network protocols and
+                                        architecture in terms of the Internet. Topics include content distribution,
+                                        peer-to-peer networking, congestion control, unicast and multicast routing,
+                                        router design, mobility, multimedia networking quality of service, security and
+                                        policy-based networking.</p></td>
+                                    <td>Prof. Edward Chlebus</td>
+                                    <td>Fall 2018</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Cloud Computing</b><br/>CS 553</td>
+                                    <td>Programming Course</td>
+                                    <td><p>This course is a tour through various topics and technologies related to
+                                        cloud computing. Students will explore solutions and learn design principles for
+                                        building large network-based systems to support both compute-intensive and
+                                        data-intensive applications across geographically distributed infrastructure.
+                                        Topics include resource management, programming models, application models,
+                                        system characterizations, and implementations. Discussions will often be
+                                        grounded in the context of deployed cloud computing systems such as Amazon EC2
+                                        and S3, Microsoft Azure, Google AppEngine, Eucalyptus, Nimbus, OpenStack,
+                                        Google's MapReduce, Yahoo's Hadoop, Microsoft's Dryad, Sphere/Sector, and many
+                                        other systems. The course involves lectures, outside invited speakers,
+                                        discussions of research papers, programming assignments, and a major project
+                                        (including both a written report and an oral presentation).</p></td>
+                                    <td>Prof. Ioan Raicu</td>
+                                    <td>Spring 2019</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Theory of Computation</b><br/>CS 530</td>
+                                    <td>Theory Course</td>
+                                    <td><p>Computability topics such as Turing machines, nondeterministic machines,
+                                        undecidability, and reducibility. Computational complexity topics such as time
+                                        complexity, NP-completeness and intractability, time and space hierarchy
+                                        theorems. Introduces the complexity classes P, NP, NL, L, PSPACE, NC, RNC, BPP
+                                        and their complete problems.</p></td>
+                                    <td>Prof. Sanjiv Kapoor</td>
+                                    <td>Spring 2019</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="true" aria-controls="collapseTwo">
+                                <i class="material-icons">check_circle</i><b> Elective Courses</b>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Course Information</th>
+                                    <th>Course Instructor</th>
+                                    <th>Term</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Machine Learning</b><br/><a
+                                            href="https://science.iit.edu/sites/science/files/field_uploads/course-descriptions/attachments/cs584.pdf">CS
+                                        584</a></td>
+                                    <td><p>TIntroduce fundamental problems in machine learning. Provide understanding of
+                                        techniques, mathematical concepts, and algorithms used in machine learning.
+                                        Provide understanding of the limitations of various machine learning algorithms
+                                        and the way to evaluate performance of learning algorithms. Topics include
+                                        introduction, regression, kernel methods, generative learning, discriminative
+                                        learning, neural networks, support vector machines, graphical models,
+                                        unsupervised learning, and dimensionality reduction.</p></td>
+                                    <td>Dr. Ming Long Lam</td>
+                                    <td>Fall 2018</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Artificial Intelligence</b><br/>CS 480</td>
+                                    <td><p>Introduction to computational methods for intelligent control of autonomous
+                                        agents, and the use of programming paradigms that support development of
+                                        flexible and reactive systems. These include heuristic search, knowledge
+                                        representation, constraint satisfaction, probabilistic reasoning,
+                                        decision-theoretic control, and sensor interpretation. Particular focus will be
+                                        places on real-world application of the material.</p></td>
+                                    <td>Dr. Shlomo Argamon</td>
+                                    <td>Fall 2018</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Natural Language Processing</b><br/>CS 585</td>
+                                    <td><p>An introduction to the problems of computing with human languages. Parsing.
+                                        Semantic representations. Text generation. Lexicography. Discourse. Sublanguage
+                                        studies. Applications to CAI, database interfaces and information retrieval.</p>
+                                    </td>
+                                    <td>Dr. Shlomo Argamon</td>
+                                    <td>Spring 2019</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Software Modeling Development with UML</b><br/><a
+                                            href="https://science.iit.edu/sites/science/files/field_uploads/course-descriptions/attachments/csp586.pdf">CSP
+                                        586</a></td>
+                                    <td><p>Students will obtain a significant exposure to the UML technology. This will
+                                        include exposure to modeling, model-driven development, executable models, and
+                                        round-trip engineering.</p></td>
+                                    <td>Prof. Atef J. Bader</td>
+                                    <td>Spring 2019</td>
+                                </tr>
+                                <!--<tr>-->
+                                <!--<td><b>Cloud Computing</b><br/>CS 553</td>-->
+                                <!--<td><p>This course is a tour through various topics and technologies related to cloud computing. Students will explore solutions and learn design principles for building large network-based systems to support both compute-intensive and data-intensive applications across geographically distributed infrastructure. Topics include resource management, programming models, application models, system characterizations, and implementations. Discussions will often be grounded in the context of deployed cloud computing systems such as Amazon EC2 and S3, Microsoft Azure, Google AppEngine, Eucalyptus, Nimbus, OpenStack, Google's MapReduce, Yahoo's Hadoop, Microsoft's Dryad, Sphere/Sector, and many other systems. The course involves lectures, outside invited speakers, discussions of research papers, programming assignments, and a major project (including both a written report and an oral presentation).</p></td>-->
+                                <!--<td>Prof. Ioan Raicu</td>-->
+                                <!--<td>Spring 2019</td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                <!--<td><b>Theory of Computation</b><br/>CS 530</td>-->
+                                <!--<td><p>Computability topics such as Turing machines, nondeterministic machines, undecidability, and reducibility. Computational complexity topics such as time complexity, NP-completeness and intractability, time and space hierarchy theorems. Introduces the complexity classes P, NP, NL, L, PSPACE, NC, RNC, BPP and their complete problems.</p></td>-->
+                                <!--<td>Prof. Sanjiv Kapoor</td>-->
+                                <!--<td>Spring 2019</td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                <!--<td><b>Theory of Computation</b><br/>CS 530</td>-->
+                                <!--<td><p>Computability topics such as Turing machines, nondeterministic machines, undecidability, and reducibility. Computational complexity topics such as time complexity, NP-completeness and intractability, time and space hierarchy theorems. Introduces the complexity classes P, NP, NL, L, PSPACE, NC, RNC, BPP and their complete problems.</p></td>-->
+                                <!--<td>Prof. Sanjiv Kapoor</td>-->
+                                <!--<td>Spring 2019</td>-->
+                                <!--</tr>-->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="display-5"><b>Stony Brook University</b></h3>
+            <div class="accordion" id="accordionExample1">
+                <div class="card">
+                    <div class="card-header" id="headingOne1">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne1"
+                                    aria-expanded="true" aria-controls="collapseOne1">
+                                <i class="material-icons">done</i><b> Introductory Courses</b>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1"
+                         data-parent="#accordionExample1">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Course Information</th>
+                                    <th>Course Instructor</th>
+                                    <th>Term</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Computer Science I</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~pfodor/courses/cse114.html">CSE 114</a>
+                                    </td>
+                                    <td><p>An introduction to procedural and object-oriented programming methodology.
+                                        Topics include
+                                        program structure, conditional and iterative programming, procedures, arrays and
+                                        records,
+                                        object classes, encapsulation, information hiding, inheritance, polymorphism,
+                                        file I/O, and
+                                        exceptions. Includes required laboratory.</p></td>
+                                    <td>Dr. Paul Fodor</td>
+                                    <td>Fall 2014</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Computer Science II</b><br/><a href="http://www3.cs.stonybrook.edu/~cse214/">CSE
+                                        214</a>
+                                    </td>
+                                    <td><p>An extension of programming methodology to data storage and manipulation on
+                                        complex data
+                                        sets. Topics include: programming and applications of data structures; stacks,
+                                        queues,
+                                        lists, binary trees, heaps, priority queues, balanced trees and graphs.
+                                        Recursive
+                                        programming is heavily utilized. Fundamental sorting and searching algorithms
+                                        are examined
+                                        along with informal efficiency comparisons.</p></td>
+                                    <td>Prof. Ahmed Esmaili</td>
+                                    <td>Spring 2015</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Foundations of Computer Science</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~hgupta/215/">CSE 215</a></td>
+                                    <td><p>Introduction to the logical and mathematical foundations of computer science.
+                                        Topics
+                                        include functions, relations, and sets; recursion and functional programming;
+                                        elementary
+                                        logic; and mathematical induction and other proof techniques.</p></td>
+                                    <td>Prof. Himanshu Gupta</td>
+                                    <td>Spring 2015</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Computer Science III</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~cse219/Section02/index.html">CSE
+                                        219</a></td>
+                                    <td><p>Development of the basic concepts and techniques learned in CSE 114 Computer
+                                        Science I
+                                        and CSE 214 Computer Science II into practical programming skills that include a
+                                        systematic
+                                        approach to program design, coding, testing, and debugging. Application of these
+                                        skills to
+                                        the construction of robust programs of 1000 to 2000 lines of source code. Use of
+                                        programming
+                                        environments and tools to aid in the software development process.</p></td>
+                                    <td>Prof. Richard McKenna</td>
+                                    <td>Fall 2015</td>
+                                </tr>
+                                <tr>
+                                    <td><b>System Fundamentals I</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~cse220/">CSE
+                                        220</a></td>
+                                    <td><p>This course will introduce assembly language programming and essential
+                                        concepts of
+                                        computer organization and architecture. The focus of this course is on the
+                                        computer
+                                        organization of a computer system, including the processor architecture and the
+                                        memory
+                                        system. In particular, we will discuss the internal representation of
+                                        information,
+                                        performance evaluation methodology, instruction set architectures and
+                                        implementation
+                                        techniques for computer arithmetic, control path design, and pipelining.</p>
+                                    </td>
+                                    <td>Prof. Kevin McDonnel</td>
+                                    <td>Spring 2016</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingOne2">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne2"
+                                    aria-expanded="true" aria-controls="collapseOne2">
+                                <i class="material-icons">star</i><b> Advanced Courses</b>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2"
+                         data-parent="#accordionExample1">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Course Information</th>
+                                    <th>Course Instructor</th>
+                                    <th>Term</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Analysis of Algorithms</b><br/><a
+                                            href="https://www3.cs.stonybrook.edu/~skiena/373/">CSE
+                                        373</a></td>
+                                    <td><p>Mathematical analysis of a variety of computer algorithms including
+                                        searching, sorting,
+                                        matrix multiplication, fast Fourier transform, and graph algorithms. Time and
+                                        space
+                                        complexity. Upper-bound, lower- bound, and average-case analysis. Introduction
+                                        to NP
+                                        completeness. Some machine computation is required for the implementation and
+                                        comparison of
+                                        algorithms.</p></td>
+                                    <td>Prof. Steven Skiena</td>
+                                    <td>Fall 2016</td>
+                                </tr>
+                                <tr>
+                                    <td><b>System Fundamentals II</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~cse320/">CSE
+                                        320</a></td>
+                                    <td><p>This course will introduce C programming and essential concepts of operating
+                                        systems,
+                                        compilers, concurrency, and performance analysis, focused around several
+                                        cross-cutting
+                                        examples, such as memory management, error handling, and threaded
+                                        programming.</p></td>
+                                    <td>Dr. Jennifer Wong-Ma</td>
+                                    <td>Fall 2016</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Introduction to the Theory of Computation</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~cse303/">CSE 303</a></td>
+                                    <td><p>An introduction to the abstract notions encountered in machine computation.
+                                        Topics
+                                        include finite automata, regular expressions, and formal languages, with
+                                        emphasis on regular
+                                        and context-free grammars. Questions relating to what can and cannot be done by
+                                        machines are
+                                        covered by considering various models of computation, including Turing machines,
+                                        recursive
+                                        functions, and universal machines.</p></td>
+                                    <td>Prof. Anita Wasilewska</td>
+                                    <td>Spring 2017</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Computer Networks</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~ellenyliu/310/">CSE
+                                        310</a></td>
+                                    <td><p>Overview of computer networks and the Internet. Concept of end systems,
+                                        access networks,
+                                        clients and servers. Connection-oriented and connectionless services. Circuit
+                                        switching and
+                                        packet switching. Description of Internet protocol layers, including application
+                                        layer,
+                                        transport layer, network layer and link layer. Architecture of the current
+                                        Internet and the
+                                        World-Wide Web. TCP/IP protocol stack. Internet routing and addressing. Local
+                                        area network
+                                        protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking.</p>
+                                    </td>
+                                    <td>Dr. Yanni Ellen Liu</td>
+                                    <td>Spring 2017</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Principles of Database Systems</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~sas/courses/cse305/fall17/">CSE 305</a>
+                                    </td>
+                                    <td><p>The design of database management systems to obtain consistency, integrity,
+                                        and
+                                        availability of data. Conceptual models and schemas of data: relational,
+                                        hierarchical, and
+                                        network. Students undertake a semester project that includes the design and
+                                        implementation
+                                        of a database system.</p></td>
+                                    <td>Prof. Scott Smolka</td>
+                                    <td>Fall 2017</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Principles of Programming Langauges</b><br/><a
+                                            href="http://www3.cs.stonybrook.edu/~sas/courses/cse305/fall17/">CSE 307</a>
+                                    </td>
+                                    <td><p>Presents examples of important programming languages and paradigms such as
+                                        LISP, ALGOL,
+                                        ADA, ML, Prolog, and C++. Students write sample programs in some of the
+                                        languages studied.
+                                        The languages are used to illustrate programming language constructs such as
+                                        binding,
+                                        binding times, data types and implementation, operations (assignment data-type
+                                        creation,
+                                        pattern matching), data control, storage management, parameter passing, and
+                                        operating
+                                        environment. The suitability of these various languages for particular
+                                        programming tasks is
+                                        also covered.</p></td>
+                                    <td>Prof. Paul Fodor</td>
+                                    <td>Fall 2017</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Software Engineering</b><br/><a
+                                            href="https://www3.cs.stonybrook.edu/~cse308">CSE 308</a></td>
+                                    <td><p>Introduces the basic concepts and modern tools and techniques of software
+                                        engineering. Emphasizes the development of reliable and maintainable software
+                                        via system requirements and specifications, software design methodologies
+                                        including object-oriented design, implementation, integration, and testing;
+                                        software project management; life-cycle documentation; software maintenance; and
+                                        consideration of human factor issues.</p></td>
+                                    <td>Prof. Robert Kelly</td>
+                                    <td>Spring 2018</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne3">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne3"
+                                        aria-expanded="true" aria-controls="collapseOne3">
+                                    <i class="material-icons">check_circle</i><b> Elective Courses</b>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne3" class="collapse" aria-labelledby="headingOne3"
+                             data-parent="#accordionExample1">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Course Name</th>
+                                        <th>Course Information</th>
+                                        <th>Course Instructor</th>
+                                        <th>Term</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><b>Internet Programming</b><br/><a
+                                                href="http://www3.cs.stonybrook.edu/~cse336/">CSE 336</a>
+                                        </td>
+                                        <td><p>Introduces the design and development of software for Internet commerce.
+                                            Topics include
+                                            extended markup language, servlets, cookies, sessions, Internet media types,
+                                            Web protocols,
+                                            digital signatures, certificates, encryption, and the wireless Internet.</p>
+                                        </td>
+                                        <td>Prof. Robert Kelly</td>
+                                        <td>Spring 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Scripting Languages</b><br/><a
+                                                href="http://aliselmanaydin.com/cse337.html">CSE 337</a>
+                                        </td>
+                                        <td><p>Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.</p>
+                                        </td>
+                                        <td>Prof. Ali Selman Aydin</td>
+                                        <td>Spring 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Natural Language Processing</b><br/>Special Topics in Computer
+                                            Science<br/><a
+                                                    href="http://www3.cs.stonybrook.edu/~niranjan/cse390-nlp/index.html">CSE
+                                                390</a></td>
+                                        <td><p>This introductory course will cover some of the basic applications in
+                                            NLP. We will look
+                                            at the tools and techniques used in these applications like, Language
+                                            Modelling, Text
+                                            Categorization, Part of Speech Tagging, Name Entity Recognition, Information
+                                            Extraction and
+                                            Retrieval and Question Answering.</p></td>
+                                        <td>Prof. Niranjan Balasubramian</td>
+                                        <td>Spring 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Social Network Analysis</b><br/>Special Topics in Computer Science<br/>CSE
+                                            392
+                                        </td>
+                                        <td><p>This introductory course will cover some of the basic concepts of Social
+                                            Network
+                                            Analysis. Concepts including Graph and Game Theory, Nash Equilibrium,
+                                            Auctions, Voting, etc
+                                            shall be covered.</p></td>
+                                        <td>Prof. Jie Gao</td>
+                                        <td>Spring 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Data Science </b><br/>Special Topics in Computer Science<br/><a
+                                                href="http://www3.cs.stonybrook.edu/~anshul/courses/cse390_f17/">CSE
+                                            390</a></td>
+                                        <td><p>This undergraduate-level special topics course covers probability and
+                                            statistics topics
+                                            required for data scientists to analyze and interpret data. The course will
+                                            involve
+                                            theoretical topics and some programming assignments. The course is targeted
+                                            primarily for
+                                            junior and senior undergraduate students who are comfortable with concepts
+                                            relating to
+                                            probability and are comfortable with basic programming. Undergraduates from
+                                            Computer
+                                            Science, Applied Mathematics and Statistics, and Electrical and Computer
+                                            Engineering would
+                                            be well suited for taking this class. Topics covered include Probability
+                                            Theory, Random
+                                            Variables, Stochastic Processes, Statistical Inference, Hypothesis Testing,
+                                            Regression,
+                                            Classification, and Clustering.</p></td>
+                                        <td>Prof. Anshul Gandhi</td>
+                                        <td>Fall 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Undergraduate Teaching Praticum</b><br/>CSE 475</td>
+                                        <td><p>Students assist faculty in teaching by conducting a recitation or laboratory section that
+                                            supplements a lecture course. The student receives regularly scheduled supervision from the
+                                            faculty instructor.</p></td>
+                                        <td>Prof. Kevin McDonnel</td>
+                                        <td>Fall 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Undergraduate Teaching Praticum</b><br/>CSE 475</td>
+                                        <td><p>Students assist faculty in teaching by conducting a recitation or laboratory section that
+                                            supplements a lecture course. The student receives regularly scheduled supervision from the
+                                            faculty instructor.</p></td>
+                                        <td>Prof. Michael Tashbook</td>
+                                        <td>Spring 2016</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne4">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne4"
+                                        aria-expanded="true" aria-controls="collapseOne4">
+                                    <i class="material-icons">gavel</i><b> Professional Ethics and Writing Courses</b>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne4" class="collapse" aria-labelledby="headingOne4"
+                             data-parent="#accordionExample1">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Course Name</th>
+                                        <th>Course Information</th>
+                                        <th>Course Instructor</th>
+                                        <th>Term</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><b>Introductory Writing</b><br/>WRT 101</td>
+                                        <td><p>Frequent short papers are designed to help students develop fluency and correctness. The
+                                            basic requirements of academic writing are introduced.</p></td>
+                                        <td>Prof. Hugh Patterson</td>
+                                        <td>Fall 2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Intermediate Writing Workshop</b><br/>WRT 102</td>
+                                        <td><p>Writing for academic purposes is emphasized. Students learn strategies for extended
+                                            writing assignments at the university. At least three major essays, multiple drafts, and
+                                            short papers are required.</p></td>
+                                        <td>Prof. Joseph Labriola</td>
+                                        <td>Spring 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Legal, Social, and Ethical Issues in Information Systems</b><br/><a
+                                                href="https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE312">CSE
+                                            312</a></td>
+                                        <td><p>This course deals with the impact of computers on us as individuals and on our society.
+                                            Rapid changes in computing technology and in our use of that technology have changed the way
+                                            we work, play, and interact with other people. These changes have created a flood of new
+                                            social and legal issues that demand critical examination. For example, technologies such as
+                                            Gmail, Facebook, MySpace, along with music sharing sites and wikis create new social,
+                                            ethical, and legal issues.</p></td>
+                                        <td>Prof. Robert Kelly</td>
+                                        <td>Fall 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Technical Communications</b><br/><a
+                                                href="https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE300">CSE
+                                            300</a></td>
+                                        <td><p>Principles of professional technical communications for Computer Science and Information
+                                            Systems majors. Topics include writing business communications, user manuals, press
+                                            releases, literature reviews, and research abstracts. Persuasive oral communications and
+                                            effective presentation techniques, to address a range of audiences, will also be
+                                            covered.</p></td>
+                                        <td>Prof. Katherine Johnston</td>
+                                        <td>Fall 2017</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne5">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne5"
+                                        aria-expanded="true" aria-controls="collapseOne5">
+                                    <i class="material-icons">bar_chart</i><b> Math and Statistics Courses</b>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne5" class="collapse" aria-labelledby="headingOne5"
+                             data-parent="#accordionExample1">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Course Name</th>
+                                        <th>Course Information</th>
+                                        <th>Course Instructor</th>
+                                        <th>Term</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><b>Calculus A and B</b><br/>MAT 125, MAT 127</td>
+                                        <td><p>MAT 125: Differential calculus, emphasizing conceptual understanding, computations and
+                                            applications, for students who have the necessary background from 12th-year high school
+                                            mathematics. Differentiation of elementary algebraic, trigonometric, exponential and
+                                            logarithmic functions; graphing; modeling; and maximization.</p>
+                                            <p>MAT 126: A continuation of MAT 125, covering integral calculus: the fundamental theorem,
+                                                symbolic and numeric methods of integration, area under a curve, volume, applications
+                                                such as work and probability, complex numbers.</p></td>
+                                        <td>Transfered through Math Placement Exam.</td>
+                                        <td>Transfer</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Calculus C</b><br/>MAT 127</td>
+                                        <td><p>A continuation of MAT 126, covering: improper integrals and l'Hospital's rule, sequences,
+                                            series, Taylor series, differential equations and modeling.</p></td>
+                                        <td>Prof. Lowell Jones</td>
+                                        <td>Fall 2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Applied Linear Algebra</b><br/>AMS 210</td>
+                                        <td><p>An introduction to the theory and use of vectors and matrices. Matrix theory including
+                                            systems of linear equations. Theory of Euclidean and abstract vector spaces. Eigenvectors
+                                            and eigenvalues. Linear transformations.</p></td>
+                                        <td>Prof. Bing Wang</td>
+                                        <td>Spring 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Finite Mathematical Structures</b><br/>AMS 301</td>
+                                        <td><p>An introduction to graph theory and combinatorial analysis. The emphasis is on solving
+                                            applied problems rather than on theorems and proofs. Techniques used in problem solving
+                                            include generating functions, recurrence relations, and network flows. This course develops
+                                            the type of mathematical thinking that is fundamental to computer science and operations
+                                            research.</p></td>
+                                        <td>Prof. Xinyun Chen</td>
+                                        <td>Fall 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Survey of Probability and Statistics</b><br/>AMS 310</td>
+                                        <td><p>A survey of data analysis, probability theory, and statistics. Stem and leaf displays,
+                                            box plots, schematic plots, fitting straight line relationships, discrete and continuous
+                                            probability distributions, conditional distributions, binomial distribution, normal and t
+                                            distributions, confidence intervals, and significance tests.</p></td>
+                                        <td>Prof. Jerson Cochancela</td>
+                                        <td>Winter 2016</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne6">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne6"
+                                        aria-expanded="true" aria-controls="collapseOne6">
+                                    <i class="material-icons">fingerprint</i><b> Science Courses</b>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne6" class="collapse" aria-labelledby="headingOne6"
+                             data-parent="#accordionExample1">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Course Name</th>
+                                        <th>Course Information</th>
+                                        <th>Course Instructor</th>
+                                        <th>Term</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><b>Classical Physics I</b><br/>PHY 131</td>
+                                        <td><p>First part of a two-semester physics sequence for physical-sciences or engineering majors
+                                            who have a strong mathematics background and are ready for a fast learning pace. It covers
+                                            mechanics, wave motion, kinetic theory, and thermodynamics. </p></td>
+                                        <td>Prof. Peter Koch</td>
+                                        <td>Spring 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Classical Physics II</b><br/>PHY 132</td>
+                                        <td><p>Second part of a two-semester physics sequence for physical-sciences or engineering
+                                            majors who have a strong mathematics background and are ready for a fast learning pace. It
+                                            covers electromagnetism, electric circuit theory, and optics.</p></td>
+                                        <td>Prof. Peter Koch</td>
+                                        <td>Fall 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Classical Physics Laboratory I</b><br/>PHY 133</td>
+                                        <td><p>Two hours of laboratory per week that corresponds to the content of PHY 131.</p></td>
+                                        <td>Prof. Klaus Dehmelt and Prof. Abhay Deshpande</td>
+                                        <td>Spring 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Classical Physics Laboratory II</b><br/>PHY 134</td>
+                                        <td><p>Two hours of laboratory per week that corresponds to the content of PHY 132.</p></td>
+                                        <td>Prof. Klaus Dehmelt and Prof. Abhay Deshpande</td>
+                                        <td>Fall 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>The Earth trough Time</b><br/>GEO 103</td>
+                                        <td><p>The history of the earth from its formation 4.5 billion years ago to the present. Major
+                                            issues to be addressed include formation and early history of the earth and moon; evolution
+                                            of continents, oceans, and atmosphere within the framework of plate tectonics; origin of
+                                            life; and evidence of past climates.</p></td>
+                                        <td>Prof. Scott McLennan</td>
+                                        <td>Spring 2016</td>
+                                    </tr>
+                                    <tr>
+                                      <td><b>Historical Geology Laboratory</b><br/>GEO 113</td>
+                                      <td><p>An introduction to basic techniques used for interpreting geological history. Topics include interpretation of topographic and geological maps and cross sections, introduction to fossils, and basic stratigraphic techniques.</p></td>
+                                      <td>Prof. Scott McLennan</td>
+                                      <td>Spring 2017</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne7">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne7"
+                                        aria-expanded="true" aria-controls="collapseOne7">
+                                    <i class="material-icons">attachment</i><b> Other Courses</b>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne7" class="collapse" aria-labelledby="headingOne7"
+                             data-parent="#accordionExample1">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Course Name</th>
+                                        <th>Course Information</th>
+                                        <th>Course Instructor</th>
+                                        <th>Term</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><b>Elements of Music</b><br/>MUS 119</td>
+                                        <td><p>Beginning with the rudiments of music, such as meter, tempo, rhythm, and how to read
+                                            notes in several clefs, this "hands on" course goes on to examine how music is organized,
+                                            covering scales, keys, intervals, chords, form, and style in classical music. Students also
+                                            compose throughout the semester and sharpen their listening skills through attendance at
+                                            concerts.</p></td>
+                                        <td>Prof. Stephen Gorgone</td>
+                                        <td>Spring 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Introduction to Asian Studies</b><br/>AAS 118</td>
+                                        <td><p>Provides students with information on subjects of common concern to people in both Asia
+                                            and America, including education, health, religion and values, consumer issues, family and
+                                            home, mobility (including immigration), children, careers and work, entertainment and
+                                            leisure, etc. In this context, Asia as a cultured space includes India, Southeast Asia,
+                                            China, Korea and Japan. Students will design their own maps and timelines to represent
+                                            tongues, texts, and scripts, as well as ethnic identities.</p></td>
+                                        <td>Prof. Peg Christoff</td>
+                                        <td>Fall 2014</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Hinduism</b><br/>AAS 256</td>
+                                        <td><p>Survey of the principal religious and philosophical currents of Hindu civilization in
+                                            India from the time of the Vedas and Upanishads through the development of the major
+                                            devotional ways and schools of thought current in India today. These include the polytheism
+                                            of Hindu mythology, the theism of various forms of devotional practice, and the monotheism
+                                            and nondualism of Hindu philosophy.</p></td>
+                                        <td>Prof. Andrew Nicholson</td>
+                                        <td>Fall 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Introduction to American Government</b><br/>POL 102</td>
+                                        <td><p>What the informed citizen and specialist should know about the organization of American
+                                            government, including the Constitution and what it means today, the Congress, political
+                                            parties, pressure groups, growth of the Presidency, the Supreme Court, judicial review,
+                                            federalism, separation of powers, and the Bill of Rights.</p></td>
+                                        <td>Prof. John Ryan</td>
+                                        <td>Fall 2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Introduction to Astronomy</b><br/>AST 101</td>
+                                        <td><p>Description of planets, stars, galaxies, black holes, pulsars, quasars, supernovae, and white dwarfs. Man's place in the cosmos. Cosmological theories. </p></td>
+                                        <td>Prof. Jin Koda</td>
+                                        <td>Fall 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Elementary Hindi II</b><br/>HIN 112</td>
+                                        <td><p>An introduction to spoken and written Hindi, stressing pronunciation, speaking, comprehension, reading, and writing.</p></td>
+                                        <td>Prof. Aruna Sharma</td>
+                                        <td>Spring 2018</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

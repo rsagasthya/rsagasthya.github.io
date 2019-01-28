@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="CSS_nus.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script src="image_js.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="images/infinera-logo.png" class="rounded mx-auto d-block" alt="un" width=25%>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Infinera Corporation is a vertically integrated manufacturer of long-haul Wavelength division multiplexing (WDM) optical transmission equipment for the telecommunications service provider market. It was a pioneer in design and manufacture of large scale photonic integrated circuits (PICs).</p>
+            <p>Headquartered in Sunnyvale, California, the company sells data communications equipment to network operators building the global infrastructure that underpins the Internet. The company’s systems can send large amounts of data on optical fiber cables.</p>
+            <p>Infinera has pioneered design and manufacture of large scale photonic integrated circuits (PICs). Over 300 patents have been filed by Infinera in fields including optical transport and virtualization of optical bandwidth.</p>
+            <p>In March 2011, Infinera announced "500,000 hours of failure free operation worldwide". The company claims that its PIC technology has never failed in a customer network.</p>
+            <p>The production efficiency of using monolithic integration with PIC has permitted Infinera to build large super-channel cards with capacity of 500 gigabit/second. In 2015, it announced Facebook had deployed an Infinera Intelligent Transport Network to light the world's longest terrestrial optical network route (3,998km), capable of delivering up to eight terabits per second of data transmission capacity (equivalent to streaming one million high-def videos simultaneously).</p>
+            <p>This large throughput may be in excess of actual carrier requirements. Infinera has changed its business model to permit purchase of a 500 Gbit/s. line card by a carrier, but only switch on capacity in 100 Gb/second units of capacity. The company refers to this pricing model as "Cashflow-Efficient Instant Bandwidth" and has trademarked the term. The company's technology road map projects linecards' throughput to scale to 4 terabit and beyond.</p>
+            <small>Sources:
+                <ol>
+                    <li><cite title="US Patent Collection DB">US Patent Database</cite></li>
+                    <li><cite title="Infinera News Release: Fastest growing Tech Company in North America, 12 November 2009">Infinera News Release, 12 November 2009</cite></li>
+                    <li><cite title="Kassener, Michael. Facebook's data centre connection to the terrestrial long distance record.">TechRepublic, 13 December 2015.</cite></li>
+                    <li><cite title="Photonic Integration (Infinera White Paper)">Photonic Integration (Infinera White Paper), 12 August 2015.</cite></li>
+                </ol>
+            </small>
+        </div>
+        <div class="col-sm-8">
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                <b>Summer Work Program 2014</b>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h5>Summer Work Program 2014</h5>
+                            <p>The project was a simple soring algorithm in Java. In the Network Element's Chassis view, when a new chassis is inserted into the rack, the chassis would not be sorted automatically, and hence would appear hapazard. </p>
+                            <p>The objective of this project, was to achieve an algorithm that would sort the elements of a rac, whenever added.</p>
+                            <p>The project report is as follows: </p>
+                            <object data="pdfs/2014-project-report.pdf" type="application/pdf" width="100%" height="800">
+                                <p>Alternative text - link <a href="pdfs/2014-project-report.pdf">to the PDF!</a></p>
+                            </object>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="true" aria-controls="collapseTwo">
+                                <b>Summer Work Program 2015</b>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h5>Summer Work Program 2015</h5>
+                            <p>The Documentation Department at Infinera India Pvt. Ltd. included manual translation of data in RAML files to PDF files. To ease this process, the RAML to HTML Parser was developed that produces a HTML page of the Schemas in the RAML file. With minimal modification, the final piece can be pasted in the end-user document.</p>
+                            <p>This project was further modified by the company, to be put in use by the department.</p>
+                            <p>The project report is as follows: </p>
+                            <object data="pdfs/2015-project-report.pdf" type="application/pdf" width="100%" height="800">
+                                <p>Alternative text - link <a href="pdfs/2015-project-report.pdf">to the PDF!</a></p>
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#image {
+    left: 0px;
+    width: 275px;
+}
+
+#image_header1 {
+    left: 0px;
+    width: 150px;
+    float: left;
+}
+
+#image_header2 {
+    left: 0px;
+    width: 150px;
+    float: right;
+}
