@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2068963-9809-4e14-9c13-fbd77a4224de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mcafee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iisc.html" beforeDir="false" afterPath="$PROJECT_DIR$/iisc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinera.html" beforeDir="false" afterPath="$PROJECT_DIR$/infinera.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leh.html" beforeDir="false" afterPath="$PROJECT_DIR$/leh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manylanguages.html" beforeDir="false" afterPath="$PROJECT_DIR$/manylanguages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection.html" beforeDir="false" afterPath="$PROJECT_DIR$/reflection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singapore.html" beforeDir="false" afterPath="$PROJECT_DIR$/singapore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/Resume.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +22,9 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -76,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/education.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            <state relative-caret-position="350">
+              <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -234,6 +225,7 @@
       <workItem from="1552146553834" duration="520000" />
       <workItem from="1556129509014" duration="1938000" />
       <workItem from="1559885174902" duration="2004000" />
+      <workItem from="1566702210805" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="Modified titles">
       <created>1548704575141</created>
@@ -246,10 +238,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8652000" />
+    <option name="totallyTimeSpent" value="9005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -478,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="350">
+          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
